@@ -214,5 +214,13 @@ button {
         display:flex;
         justify-content: center;
         /* align-content:center; */
-    };
+    }
+    .globe-img {
+        display:none;
+        margin-bottom:12%;
+        border-bottom:3px solid black;
+    }
+    .middle-img {
+        width:100%;
+    }
 }

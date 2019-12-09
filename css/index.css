@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	border:2px solid red;
+	/* border:2px solid red; */
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -191,7 +191,16 @@ button {
    nav {
        display:flex;
        flex-direction:column-reverse;
-   }
+       margin-top:1%;
+       border-bottom-color:2px solid gray;
+
+
+    }
+
+    nav a {
+
+    }
+
    nav .a-tags {
         display:flex;
         flex-direction:column;
@@ -199,7 +208,11 @@ button {
         justify-content:space-between;
         line-height: 1.5;
         width:100%;
-  }
+        margin-top:5%;
+    }
+    .top {
+        display:flex;
+        justify-content: center;
+        /* align-content:center; */
+    };
 }
-
-

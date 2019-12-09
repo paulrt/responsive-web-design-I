@@ -148,3 +148,19 @@ button {
     margin:1% 8%;
 }
 
+/* This is for mobile @500px */
+@media(max-width: 500px) {
+    .container{
+        max-width:500px;
+    }
+    nav {
+        display:flex;
+        flex-flow:column-reverse;
+    }
+    nav a {
+        display:flex;
+        flex-direction:column-reverse;
+
+    }
+
+}

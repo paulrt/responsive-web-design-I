@@ -2,220 +2,285 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	/* border:2px solid red; */
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    /* border:2px solid red; */
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-html, body {
+html,
+body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
-
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
 /*This is for desktop view*/
 .container {
-    margin:3%;
+    margin: 3%;
 }
-
 nav {
-	display:flex;
-	justify-content: space-around;
-	align-items:center;
-    width:100%;
-    flex-direction:row-reverse;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-direction: row-reverse;
 }
-
 .a-tags {
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    width:65%;
-    border-bottom:3%;
+    width: 65%;
+    border-bottom: 3%;
 }
-
 nav a {
-	text-decoration:none;
-	color:gray;
-	padding:1%;
+    text-decoration: none;
+    color: gray;
+    padding: 1%;
 }
-
 .top {
-    display:flex;
-    
+    display: flex;
 }
-
 .logo {
-    display:flex;
-    
+    display: flex;
 }
-
 .top .text-top {
-    font-size:77px;
-    margin-top:10%;
-    padding:0px 75;
-    margin-left:5%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    text-align:center;
+    font-size: 77px;
+    margin-top: 10%;
+    padding: 0px 75;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
-
 .top .globe-img {
-    margin-left:30%;    
-    padding:2%;
+    margin-left: 20%;
+    padding: 2%;
 }
-
 .button {
-    width:100px;
-    border-radius:1px 1px 1px 1px solid black;
+    width: 100px;
+    border-radius: 1px 1px 1px 1px solid black;
 }
-
 .middle-img {
-    width:100%;
+    width: 100%;
 }
-
 #features {
-    width:100%;
-    display:flex;
-    padding:5%;
-    margin-top:5%;
-    border-top:5px solid black;
+    width: 100%;
+    display: flex;
+    padding: 5%;
+    margin-top: 5%;
+    border-top: 5px solid black;
 }
-
 .left {
-    margin-right:2%;
-    width:45%;
+    margin-right: 2%;
+    width: 45%;
 }
-
 .right {
-    margin-left:2%;
-    width:45%;
+    margin-left: 2%;
+    width: 45%;
 }
-
-.left, .right {
-    width:45%;
+.left,
+.right {
+    width: 45%;
 }
-
-.one, .two, .three {
-    display:flex;
-    flex-wrap:wrap;      
-    padding:1%;
-    width:40%;
+.one,
+.two,
+.three {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    width: 40%;
 }
-
 #bottom-sect {
-    width:100%;
-    display:flex;
-    margin-bottom:15%;
-    padding:5%;
-    border-bottom:5px solid black;
+    width: 100%;
+    display: flex;
+    margin-bottom: 15%;
+    padding: 5%;
+    border-bottom: 5px solid black;
 }
-
 .address {
-    width:100%;
-    margin-left:3%;
+    width: 100%;
+    margin-left: 3%;
 }
-
 /* This is for mobile @500px */
 @media screen and (max-width: 500px) {
-    nav .a-tags {
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        justify-content:space-between;
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
         line-height: 1.5;
-        width:100%;
-        margin-top:5%;
+        width: 100%;
+        margin-top: 5%;
     }
     .top {
-        display:flex;
+        display: flex;
         justify-content: center;
         /* align-content:center; */
     }
     .globe-img {
-        display:none;
-        margin-bottom:12%;
-        border-bottom:3px solid black;
+        display: none;
+        margin-bottom: 12%;
+        border-bottom: 3px solid black;
     }
     .middle-img {
-        width:100%;   
+        width: 100%;
     }
-    
-    .left {
-        width:40%;
+    #features {
         display:flex;
     }
-
-    .right {
-        width:40%;
-        display:flex;
-        flex-direction:column;
-    }
-
     #bottom-sect {
+        display:flex;
         width:100%;
     }
+    .left {
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+    }
+    .right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #bottom-sect {
+        width: 100%;
+    }
 }
-
 @media screen and (max-width: 800px) {
     .logo {
-        display:flex;
-        justify-content:center;
-    
-
-
+        display: flex;
+        justify-content: center;
     }
-
 }

@@ -144,6 +144,10 @@ nav a {
     width:45%;
 }
 
+.left, .right {
+    width:45%;
+}
+
 .one, .two, .three {
     display:flex;
     flex-wrap:wrap;      
